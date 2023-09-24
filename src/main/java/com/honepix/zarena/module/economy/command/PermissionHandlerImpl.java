@@ -6,7 +6,7 @@ import net.kyori.adventure.text.Component;
 import net.kyori.adventure.text.format.NamedTextColor;
 import org.bukkit.command.CommandSender;
 
-public class PermissionHandler implements dev.rollczi.litecommands.handle.PermissionHandler<CommandSender> {
+public class PermissionHandlerImpl implements dev.rollczi.litecommands.handle.PermissionHandler<CommandSender> {
 
     @Override
     public void handle(CommandSender commandSender, LiteInvocation liteInvocation, RequiredPermissions requiredPermissions) {

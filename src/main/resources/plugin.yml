@@ -1,4 +1,7 @@
-name: economy
+name: economy-module
 version: '${project.version}'
-main: com.honepix.zarena.economy.Economy
+main: com.honepix.zarena.module.economy.EconomyModule
 api-version: '1.16'
+depend:
+  - HonepixLib
+  - user-api

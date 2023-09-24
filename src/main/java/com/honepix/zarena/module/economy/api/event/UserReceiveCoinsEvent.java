@@ -7,14 +7,14 @@ import org.bukkit.event.HandlerList;
 import org.jetbrains.annotations.NotNull;
 
 @Getter
-public class UserCoinReceiveEvent extends Event {
+public class UserReceiveCoinsEvent extends Event {
 
     private static final HandlerList handlers = new HandlerList();
 
     private final long amount;
     private final Player player;
 
-    public UserCoinReceiveEvent(long amount, @NotNull Player player) {
+    public UserReceiveCoinsEvent(long amount, @NotNull Player player) {
         this.amount = amount;
         this.player = player;
     }

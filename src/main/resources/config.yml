@@ -1,0 +1,29 @@
+coin-item:
+  material: FLINT
+  custom-model-data: 5000
+  name: '&#FFF951'
+  lore:
+    - ''
+# Курс 1 предмета к игровой валюте
+exchange-rate: 10
+message:
+  received-coins: '&#65FF5D+$coins'
+  command-received-coins: 'Вы получили монеты $coins'
+  get-coin: 'Вы получили $coins'
+  not-enough-coins: 'Недостаточно монет, чтобы совершить покупку. Не хватает $coins'
+  #admin
+  command-set-coins: 'Вы установили $coins игроку $player'
+  command-coins-gived: 'Вы выдали $coins игроку $player'
+  info: 'Игрок $player имеет $coins'
+  give-coin: "Вы выдали $coins игроку $recipient"
+  take-coin: "Вы забрали $coins у игрока $recipient"
+  take-all-coin: "Вы забрали все монеты у игрока"
+
+# permission zarena.economy.coin-modifier.<group>
+group:
+  coin-modifier:
+    default: 1
+    vip: 1.25
+    premium: 1.45
+    advanced: 1.85
+

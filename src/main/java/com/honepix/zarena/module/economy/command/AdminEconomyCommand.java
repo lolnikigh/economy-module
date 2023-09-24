@@ -1,8 +1,6 @@
 package com.honepix.zarena.module.economy.command;
 
 
-import com.honepix.userapi.data.User;
-import com.honepix.userapi.provider.UserProvider;
 import com.honepix.zarena.module.economy.config.EconomyMessages;
 import com.honepix.zarena.module.economy.data.UserEconomy;
 import com.honepix.zarena.module.economy.data.UserEconomyService;
@@ -18,7 +16,7 @@ import java.util.Optional;
 @Route(name = "economy", aliases = "eco")
 @Permission("zarena.economy.admin")
 @AllArgsConstructor
-public class UserAdminEconomyCommand {
+public class AdminEconomyCommand {
 
     private UserEconomyService economyService;
     private EconomyMessages economyMessages;
