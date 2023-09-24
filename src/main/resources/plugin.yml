@@ -1,0 +1,4 @@
+name: economy
+version: '${project.version}'
+main: com.honepix.zarena.economy.Economy
+api-version: '1.16'
